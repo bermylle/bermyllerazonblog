@@ -1,0 +1,46 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="x-ua-Compatible" content="ie=edge">
+
+  <title>
+  {{- block "title" . -}}
+    {{- with .Title -}}{{- . }} | {{ end -}}
+    {{- .Site.Title -}}
+  {{- end -}}
+  </title>
+
+  {{- with .Description }}
+  <meta name="description" content="{{ . }}">
+  {{- else -}}
+  {{- with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{- end -}}
+  {{- end }}
+
+  {{- range .AlternativeOutputFormats }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}" title="{{ $.Site.Title | safeHTML }}">
+  {{- end }}
+
+  {{/* Get normalize.css first */}}
+  {{- $normalize_css_filepath := "css/normalize.css/normalize.css" -}}
+  {{- $css_files := slice (resources.Get $normalize_css_filepath) -}}
+
+  {{/* Parse SCSS files */}}
+  {{- $blogpaper_scss_filepath := "css/blogpaper.scss" -}}
+  {{- $scss_files := slice (resources.Get $blogpaper_scss_filepath) -}}
+  {{- $scss_files := $scss_files | append (where (resources.Match "**.scss") ".Name" "!=" $blogpaper_scss_filepath) -}}
+
+  {{- range $scss_files -}}
+    {{- $css := . | resources.ExecuteAsTemplate .Name . | toCSS (dict "outputStyle" "compressed") -}}
+    {{- $css_files = $css_files | append $css -}}
+  {{- end -}}
+
+  {{/* Add custom CSS files */}}
+  {{- $custom_css := where (resources.Match "**.css") ".Name" "!=" $normalize_css_filepath -}}
+  {{- $css_files = $css_files | append $custom_css -}}
+
+  {{/* Concat and link CSS files */}}
+  {{- $css := $css_files | resources.Concat "main.css" | minify | fingerprint "sha512" -}}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+</head>

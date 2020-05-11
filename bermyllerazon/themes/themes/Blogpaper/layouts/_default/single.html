@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <article class="post">
+    {{ partial "header" . }}
+
+    <div class="container">
+      <div class="content">{{ .Content }}</div>
+
+      {{- if .Params.tags }}
+      <footer class="footer">
+        {{- partial "taxonomies" (dict "Page" . "term" "tags") }}
+      </footer>
+      {{- end }}
+    </div>
+  </article>
+{{ end }}

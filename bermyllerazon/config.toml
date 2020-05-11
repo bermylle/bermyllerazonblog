@@ -1,0 +1,18 @@
+baseurl = "/"
+title = "Bermylle Razon"
+theme = "Blogpaper"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "My headline"
+    description = "My description"
+    github = "https://github.com/bermylle"
+    twitter = "https://twitter.com/bermylle"
+    email = "bermylle@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"

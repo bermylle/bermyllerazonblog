@@ -1,0 +1,54 @@
+{{/* If banner not explicitly deactivated on page ('banner: false' on front matter) */}}
+{{- if not (eq .Page.Params.banner false) -}}
+
+  {{/* Get 'banner' from front matter, complete with default values */}}
+  {{- $banner := dict "src" "" "caption" "" "href" "" "alt" (print "Header banner of '" .Page.Name "'") -}}
+  {{- if .Page.Params.banner -}}
+    {{- $banner = merge $banner .Page.Params.banner -}}
+  {{- end -}}
+
+  {{/* Should the banner link to the page? */}}
+  {{ $page_href := .page_href | default false }}
+  {{- if $page_href -}}
+    {{- $banner = merge $banner (dict "page_href" $page_href) -}}
+  {{- end -}}
+
+  {{/* Try to get banner as page resource */}}
+  {{- with .Page.Resources.GetMatch $banner.src -}}
+    {{- $banner = merge $banner (dict "resource" .) -}}
+    {{- partial "banner-figure" $banner }}
+
+  {{- else -}}
+
+    {{/* Or try to get the banner resource with the same filename as the page */}}
+    {{- if and .Page.File .Page.Parent -}}
+      {{- $src := printf "%s.*" .Page.File.BaseFileName -}}
+      {{- $resource := .Page.Parent.Resources.GetMatch $src -}}
+      {{- $banner = merge $banner (dict "src" $src "resource" $resource) }}
+    {{- end -}}
+
+    {{- if $banner.resource -}}
+      {{- partial "banner-figure" $banner }}
+
+    {{- else -}}
+
+      {{/* Or try to get the default banner resource */}}
+      {{- $src := .Page.Site.Params.banner | default "banner.*" -}}
+      {{- with .Page.Resources.GetMatch $src -}}
+        {{- $banner = merge $banner (dict "src" $src "resource" .) }}
+        {{- partial "banner-figure" $banner }}
+
+      {{- else -}}
+
+        {{/* Or try to get the parent banner as fallback */}}
+        {{- with .Page.Parent -}}
+          {{- partial "banner" (dict "Page" . "page_href" $page_href) -}}
+        {{- end -}}
+
+      {{- end -}}
+
+    {{- end -}}
+
+  {{- end -}}
+
+{{- end -}}

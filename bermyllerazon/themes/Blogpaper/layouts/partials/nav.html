@@ -1,0 +1,25 @@
+<nav class="nav">
+  <div class="nav__content container metadata">
+    <div class="nav__home">
+      <a href="{{ .Site.Home.RelPermalink }}" >
+        {{- with .Site.Params.navHome -}}
+          {{- . -}}
+        {{- else -}}
+          {{- .Site.Title -}}
+        {{- end -}}
+      </a>
+    </div>
+
+    {{- with .Site.Menus.main }}
+    <ul class="inline-list">
+      {{- range . }}
+        <li class="inline-list__item">
+          {{- .Pre -}}
+          <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+          {{- .Post -}}
+        </li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+</nav>
