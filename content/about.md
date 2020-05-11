@@ -1,21 +1,34 @@
 ---
-title: About
-subtitle: Hugo, the world’s fastest framework for building websites
+title: About me
+subtitle: 
 description: Hugo, the world’s fastest framework for building websites
-date: 2019-02-28
 aliases:
   - about-us
   - about-hugo
   - contact
 author: Hugo Authors
-banner:
-  caption: Greg Rakozy
-  href: https://unsplash.com/photos/SSxIGsySh8o
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
-Hugo makes use of a variety of open source projects including:
+{{< figure src="/berm.jpg" class="full-wide-width" >}}
+
+<!-- ![berm](/berm.jpg) -->
+<!-- ![drawing](/berm.jpg) -->
+
+<!-- {{< myshortcode color = "blue">}} -->
+
+Hello! I'm a second year CS student at the University of the Philippines Manila. My plan is to be a software engineer after I graduate two years from now.
+
+## A little trivia about my name
+{{< highlight go >}} String name = "Bermylle"; // Before + Millenium {{< /highlight >}}
+
+I was named Bermylle because I was born in December 30, 1999. They told me it was "before millenium," hence, Bermylle.
+
+I used [Hugo](https://gohugo.io/) to make this blog site with [Blogpaper](https://themes.gohugo.io/blogpaper/) as the theme.
+
+
+
+<!-- Hugo makes use of a variety of open source projects including:
 
 * https://github.com/russross/blackfriday
 * https://github.com/alecthomas/chroma
@@ -30,6 +43,6 @@ Hugo is for people who want to hand code their own website without worrying abou
 Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
 
 Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
+ -->
 
 

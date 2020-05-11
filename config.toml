@@ -1,9 +1,9 @@
 baseurl = "/"
 title = "Bermylle Razon"
 theme = "Blogpaper"
+language = "en-us"
 
-[Permalinks]
-    posts = "/:filename/"
+
 
 [[menu.main]]
     name = "Home" #Name in the navigation bar
@@ -14,3 +14,8 @@ theme = "Blogpaper"
     name = "About"
     weight = 30
     url = "/about/"
+
+[[menu.main]]
+    name = "Github"
+    weight = 30
+    url = "https://github.com/bermylle"
