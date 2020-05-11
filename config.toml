@@ -1,18 +1,16 @@
-baseurl = "/"
+baseurl = "/posts/"
 title = "Bermylle Razon"
 theme = "Blogpaper"
 
-[Params]
-    mainSections = ["post"]
-    intro = true
-    headline = "My headline"
-    description = "My description"
-    github = "https://github.com/bermylle"
-    twitter = "https://twitter.com/bermylle"
-    email = "bermylle@gmail.com"
-    opengraph = true
-    shareTwitter = true
-
-
 [Permalinks]
-    post = "/:filename/"
+    posts = "/:filename/"
+
+[[menu.main]]
+    name = "Home" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/" #URL address
+
+[[menu.main]]
+    name = "About"
+    weight = 30
+    url = "/about/"
