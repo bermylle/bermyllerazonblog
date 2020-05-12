@@ -7,6 +7,9 @@ aliases:
   - about-hugo
   - contact
 author: Hugo Authors
+banner:
+  src: banner.jpg
+  href: https://unsplash.com/photos/y83Je1OC6Wc
 ---
 
 

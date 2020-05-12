@@ -2,8 +2,7 @@ baseurl = "/"
 title = "Bermylle Razon"
 theme = "Blogpaper"
 language = "en-us"
-
-
+enableEmoji = "True"
 
 [[menu.main]]
     name = "Home" #Name in the navigation bar

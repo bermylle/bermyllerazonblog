@@ -4,6 +4,7 @@ title: Placeholder Text
 subtitle: Lorem Ipsum Dolor Si Amet
 date: 2019-03-09
 description: Lorem Ipsum Dolor Si Amet
+draft: true
 tags:
   - markdown
   - text

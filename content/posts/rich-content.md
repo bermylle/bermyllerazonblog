@@ -3,6 +3,7 @@ author: Hugo Authors
 title: Rich Content
 subtitle: A brief description of Hugo Shortcodes
 date: 2019-03-10
+draft: true
 description: A brief description of Hugo Shortcodes
 tags:
   - shortcodes
