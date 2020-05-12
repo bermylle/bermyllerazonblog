@@ -18,11 +18,13 @@ A cell automaton game made by John Conway. It is zero-player game where cells fo
 <!--more--> 
 {{< figure src="/game-of-life/gol.gif" class="full-wide-width" >}}
 
-This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our facebook group, I started straight away because I wanted to learn. 
+This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our facebook group, I started straight away because I wanted to learn. I had a mindset that I should do my projects as early as I can. 
 
-I had a mindset that programming is my **passion**. It helped me a lot because I would always have the urge to code even if I have a lot of other things to do. I love coding because there are a lot of things I don't know. The less I know, the more I want to learn.
+Programming is my **passion** and I always had the urge to code even if I have a lot of other things to do. I love coding as much as I love pizza.
 
-I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun until I was introduced to pointers and arrays.
+The less I know, the more I want to learn. There are a lot of things I need to practice and I'm not going to stop until I'm satistfied with my skillset.
+
+I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
 
 ### C Implementation 
 
@@ -37,9 +39,9 @@ I had a problem coding the *random* option in the menu because if a user chooses
 
 ### Learnings
 
-A year and a half later, I browsed my code for this project and I saw that my decision making in terms of coding approach is quite different now. I consider my coding style before to be 75% brute force. I had numerous for loops inside while loops which can be reduced to something simpler if I were to recode it. 
+A year and a half later, I browsed my code for this project and I saw that my decision making in terms of coding approach is quite different now. I consider my coding style in this project to be 75% brute force. I had numerous for loops inside while loops which can be reduced to something simpler if I were to recode it. 
 
-#### Sample code from my project
+#### Sample code from my project *yikes*
 {{< highlight C >}}
 void calculate(arrayTable tableA, int grid) {
 	arrayTable tableB;
