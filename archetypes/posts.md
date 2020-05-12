@@ -2,6 +2,8 @@
 title: {{ replace .TranslationBaseName "-" " " | title }}
 subtitle: # Optional, will be displayed bellow the title of the page; remove this line to generate an automatic subtitle
 date: {{ .Date }}
+publishdate: {{ now.Format "2006-01-02" }}
+lastmod: {{ now.Format "2006-01-02" }}
 categories: # Optional, will be displayed above the title of the page
 - First category
 - Second category

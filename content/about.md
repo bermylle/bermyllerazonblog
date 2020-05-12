@@ -18,14 +18,14 @@ banner:
 <!-- ![berm](/berm.jpg) -->
 <!-- ![drawing](/berm.jpg) -->
 
-<!-- {{< myshortcode color = "blue">}} -->
+
 
 Hello! I'm a second year CS student at the University of the Philippines Manila. My plan is to be a software engineer after I graduate two years from now.
 
 ## A little trivia about my name
 {{< highlight go >}} String name = "Bermylle"; // Before + Millenium {{< /highlight >}}
 
-I was named Bermylle because I was born in December 30, 1999. They told me the meaning was "before millenium," hence, Bermylle.
+I was named Bermylle because I was born in December 30, 1999. They told me that the meaning of my name was "before millenium," hence, Bermylle.
 
 I used [Hugo](https://gohugo.io/) to make this blog site with [Blogpaper](https://themes.gohugo.io/blogpaper/) as the theme.
 
