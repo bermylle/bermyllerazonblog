@@ -18,13 +18,13 @@ A cell automaton game made by John Conway where a cell group may have the tenden
 <!--more--> 
 {{< figure src="/game-of-life/gol.gif" class="full-wide-width" >}}
 
-This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our facebook group, I started straight away because I wanted to learn. I had a mindset that I should do my projects as early as I can. 
+This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our facebook group, I started doing it straight away. I have a mindset that I should do my projects as early as I can. 
 
-Programming is my **passion** and I always had the urge to code even if I have a lot of other things to do. I love coding as much as I love pizza.
+I consider programming as my **passion**. I always have the urge to code even if I have a lot of other things to do. I love coding as much as I love pizza.
 
-The less I know, the more I want to learn. There are a lot of things I need to practice and I'm not going to stop until I'm satistfied with my skillset.
+I believe that the less I know, the more I want to learn. There are a lot of things I need to practice in this field and I'm not going to stop until I'm satistfied with my skillset.
 
-I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
+Going back to the story, I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
 
 ### C Implementation 
 
