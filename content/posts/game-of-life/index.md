@@ -14,7 +14,7 @@ draft: false
 
 ---
 
-A cell automaton game made by John Conway. It is zero-player game where cells follow a specific set of rules. A simulation where a cell group may have the tendency to survive or die out immediately. 
+A cell automaton game made by John Conway where a cell group may have the tendency to survive or die out immediately. It is zero-player game where cells follow a specific set of rules. 
 <!--more--> 
 {{< figure src="/game-of-life/gol.gif" class="full-wide-width" >}}
 
