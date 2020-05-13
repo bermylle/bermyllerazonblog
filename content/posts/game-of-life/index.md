@@ -14,32 +14,31 @@ draft: false
 
 ---
 
-A cell automaton game made by John Conway where a cell group may have the tendency to survive or die out immediately. It is zero-player game where cells follow a specific set of rules. 
+A cell automaton game made by John Conway in which a group of creatures may tend to survive or die out immediately. It is a zero-player game where cells follow a specific set of rules. 
 <!--more--> 
 {{< figure src="/game-of-life/gol.gif" class="full-wide-width" >}}
 
-This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our facebook group, I started doing it straight away. I have a mindset that I should do my projects as early as I can. 
+This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our Facebook group, I started doing it straight away. I have a mindset that I should do my projects as early as I can. 
 
 I consider programming as my **passion**. I always have the urge to code even if I have a lot of other things to do. I love coding as much as I love pizza.
 
-I believe that the less I know, the more I want to learn. There are a lot of things I need to practice in this field and I'm not going to stop until I'm satistfied with my skillset.
+I believe that the less I know, the more I want to learn. There are a lot of things I need to practice in this field and I'm not going to stop until I'm satisfied with my skillset.
 
 Going back to the story, I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
 
 ### C Implementation 
 
-
-I wrote this C program with 890 lines of code. This is easy to implement with **pointers** and it should lessen the length of code, but with the deadline fast approaching I used 2D arrays. The image below is the actual program I made. 
+I wrote this program with 890 lines of code. It can be easily implemented with **pointers** that could lessen the lines, but with the deadline fast approaching I used 2D arrays. The image below is the actual program I made. 
 
 {{< figure src="/game-of-life/gol-actual.gif" caption="40x20 grid R-pentomino " class="wide-width" >}}
 
 ### Problems Encountered
 
-I had a problem coding the *random* option in the menu because if a user chooses that option, all types of creatures present in the program will have to occupy the specified grid. Most of the creatures are spread out in the grid, but I had to code a handler that would avoid overlapping creatures.
+I had a problem coding the *random* option in the menu because if a user chooses that option, all types of creatures must be present in the specified grid. Most of the creatures are randomized out in the grid, but I had to code a handler that would avoid overlapping creatures.
 
 ### Learnings
 
-A year and a half later, I browsed my code for this project and I saw that my decision making in terms of coding approach is quite different now. I consider my coding style in this project to be 75% brute force. I had numerous for loops inside while loops which can be reduced to something simpler if I were to recode it. 
+When I browsed my code for this project, I saw that my decision making in terms of coding approach is quite different now. I coded this project with brute force style. I am very grateful for this experience because I had a lot of fun doing it. 
 
 #### Sample code from my project *yikes*
 {{< highlight C >}}
@@ -57,3 +56,5 @@ void calculate(arrayTable tableA, int grid) {
 			} else {
 				tableB[height][width] = DEAD;
 {{< /highlight >}}
+
+This is the function I used to determine whether the neighboring cells are alive or dead. 
