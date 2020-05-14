@@ -22,7 +22,7 @@ This is the first project given to us in CS 11 (Introduction to Computer Science
 
 I believe that the less I know, the more I want to learn. There are a lot of things I need to practice in this field and I'm not going to stop until I'm satisfied with my skillset.
 
-Going back to the story, I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
+I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
 
 ### C Implementation 
 
