@@ -57,4 +57,4 @@ void calculate(arrayTable tableA, int grid) {
 
 This is the function I used to determine whether the neighboring cells are alive or dead. 
 
-You can visit my [Github](https://github.com/bermylle) to see the source code for this project. I didn't change my code because I wanted it to be a remembrance.
+You can visit my [Github](https://github.com/bermylle) to see the source code for this project.
