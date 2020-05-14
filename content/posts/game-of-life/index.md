@@ -20,8 +20,6 @@ A cell automaton game made by John Conway in which a group of creatures may tend
 
 This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our Facebook group, I started doing it straight away. I have a mindset that I should do my projects as early as I can. 
 
-I consider programming as my **passion**. I always have the urge to code even if I have a lot of other things to do. I love coding as much as I love pizza.
-
 I believe that the less I know, the more I want to learn. There are a lot of things I need to practice in this field and I'm not going to stop until I'm satisfied with my skillset.
 
 Going back to the story, I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
@@ -34,7 +32,7 @@ I wrote this program with 890 lines of code. It can be easily implemented with *
 
 ### Problems Encountered
 
-I had a problem coding the *random* option in the menu because if a user chooses that option, all types of creatures must be present in the specified grid. Most of the creatures are randomized out in the grid, but I had to code a handler that would avoid overlapping creatures.
+I had problem coding the *random* option in the menu because if a user chooses that option, all types of creatures must be present in the specified grid. Most of the creatures are randomized out in the grid, but I had to code a handler that would avoid overlapping creatures.
 
 ### Learnings
 
@@ -58,3 +56,5 @@ void calculate(arrayTable tableA, int grid) {
 {{< /highlight >}}
 
 This is the function I used to determine whether the neighboring cells are alive or dead. 
+
+You can visit my [Github](https://github.com/bermylle) to see the source code for this project. I didn't change my code because I wanted it to be a remembrance.
