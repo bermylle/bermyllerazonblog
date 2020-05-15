@@ -22,11 +22,11 @@ This is the first project given to us in CS 11 (Introduction to Computer Science
 
 I believe that the less I know, the more I want to learn. There are a lot of things I need to practice in this field and I'm not going to stop until I'm satisfied with my skillset.
 
-I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
+I coded nonstop in my dorm since it's my first project. I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
 
 ### C Implementation 
 
-I wrote this program with 890 lines of code. It can be easily implemented with **pointers** that could lessen the lines, but with the deadline fast approaching I used 2D arrays. The image below is the actual program I made. 
+I wrote this program with 890 lines of code. I realize now that it can be easily implemented with **pointers** which will reduce the lines, but with the deadline fast approaching I used 2D arrays. The image below is the actual program I made. 
 
 {{< figure src="/game-of-life/gol-actual.gif" caption="40x20 grid R-pentomino " class="wide-width" >}}
 
