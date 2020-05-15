@@ -22,7 +22,7 @@ banner:
 
 Hello! I'm a second year CS student at the University of the Philippines Manila. My plan is to be a software engineer after I graduate two years from now.
 
-&nbsp;
+
 ## A little trivia about my name
 {{< highlight go >}} String name = "Bermylle"; {{< /highlight >}}
 
