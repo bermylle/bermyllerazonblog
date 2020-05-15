@@ -27,7 +27,7 @@ Hello! I'm a second year CS student at the University of the Philippines Manila.
 
 I was named Bermylle because I was born in December 30, 1999. They told me that the meaning of my name was "before millenium," hence, Bermylle.
 
-I used [Hugo](https://gohugo.io/) to make this blog site with [Blogpaper](https://themes.gohugo.io/blogpaper/) as the theme.
+I used [Hugo](https://gohugo.io/) to make this blog site. The theme is [Blogpaper](https://themes.gohugo.io/blogpaper/).
 
 
 
