@@ -20,7 +20,7 @@ A cell automaton game made by John Conway in which a group of creatures may tend
 
 This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our Facebook group, I started doing it straight away. I have a mindset that I should do my projects as early as I can. 
 
-I believe that the less I know, the more I want to learn. There are a lot of things I need to practice in this field and I'm not going to stop until I'm satisfied with my skillset.
+I believe that the less I know, the more I want to learn. There are a lot of things I need to practice and master in this tech field. I'm not going to stop until I'm satisfied with my skillset.
 
 I coded nonstop in my dorm and since it's my first project, I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
 
