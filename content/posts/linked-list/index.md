@@ -14,7 +14,7 @@ draft: false
 
 
 ---
-Linked list is important to understand because it is often asked in job interviews. New programmers like us tend to find it difficult to implement because of pointers. Once we master the fundamentals we can apply our knowledge to solve varying DS/Algo problems in LeetCode ;-)
+Linked list is important to understand because it is often asked in job interviews. New programmers like me tend to find it difficult to implement because of pointers. Once we master the fundamentals we can apply our knowledge to solve varying DS/Algo problems in LeetCode ;-)
 <!--more--> 
 
 ### What is a Linked List?
@@ -24,7 +24,8 @@ A linked list is a data structure that has the attributes of an **array**, but b
 The image below is an example node of a **singly linked list**.
 {{< figure src="/linked-lists/linked.png">}}
 
-A *singly linked list* has a **pointer** to the next node and a **key** part that stores the data. Now, we are going to discuss how to reverse a linked list iteratively. 
+A *singly linked list* has a **pointer** to the next node and a **key** part that stores the data. 
+
 
 ### Java Representation of a Singly/Simple Linked List
 
@@ -41,7 +42,7 @@ A *singly linked list* has a **pointer** to the next node and a **key** part tha
 {{< /highlight >}}
 
 ### How do we reverse a Linked List?
-
+This is how to reverse a linked list iteratively. 
 {{< highlight java >}}public class ReverseLinkedList(Node head) 
 	Node curr = head;
 	Node prev = null;
@@ -55,6 +56,6 @@ A *singly linked list* has a **pointer** to the next node and a **key** part tha
 	return prev;
 {{< /highlight >}}
 
-I love this solution because when I submitted it on LeetCode, the runtime was 100% faster than all Java submissions. I personally like clean code, but the recursive solution's runtime can be too slow if given the worst test cases.
+The runtime of this code is 100% faster than all Java submissions in LeetCode. I personally like the iterative approach because it can clearly show the implemention of the pointers
 
 Here's a great book tackling all of the data structures and algorithms I've studied so far, we call it [CLRS](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844). 
