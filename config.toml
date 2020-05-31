@@ -19,7 +19,3 @@ enableEmoji = "True"
     weight = 30
     url = "https://github.com/bermylle"
 
-[[menu.main]]
-    name = "CV"
-    weight = 40
-    url = ""
