@@ -40,4 +40,19 @@ A *singly linked list* has a **pointer** to the next node and a **key** part tha
 	}
 {{< /highlight >}}
 
+### How do we reverse a Linked List?
+
+{{< highlight java >}}public class ReverseLinkedList(Node head) 
+	Node curr = head;
+	Node prev = null;
+	Node nex = null;
+	while (curr != null) {
+		curr.next = nex;
+		nex = prev;
+		prev = curr;
+		curr = nex;
+	}
+	return prev;
+{{< /highlight >}}
+
 Here's a great book tackling all of the data structures and algorithms I've studied so far, we call it [CLRS](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844). 
