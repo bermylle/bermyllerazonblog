@@ -14,7 +14,7 @@ draft: true
 
 
 ---
-Linked list is important to understand because it is often asked in job interviews. New programmers like us tend to find it difficult to implement because of pointers. Once we master the fundamentals we can apply our knowledge to solve varying DS/Algo problems in Leet Code ;-)
+Linked list is important to understand because it is often asked in job interviews. New programmers like us tend to find it difficult to implement because of pointers. Once we master the fundamentals we can apply our knowledge to solve varying DS/Algo problems in LeetCode ;-)
 <!--more--> 
 Here's a great book tackling all of the data structures and algorithms I've studied so far, we call it [CLRS](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844). 
 
