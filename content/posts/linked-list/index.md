@@ -10,7 +10,7 @@ banner:
   #src: g.jpg # Optional, the filename of the banner, by default banner.jpg
   caption: # Optional, the caption of the banner
   href: # Optional, a link on the caption
-draft: true
+draft: false
 
 
 ---
@@ -24,7 +24,7 @@ A linked list is a data structure that has the attributes of an **array**, but b
 The image below is an example node of a **singly linked list**.
 {{< figure src="/linked-lists/linked.png">}}
 
-A *singly linked list* has a **pointer** to the next node and a **key** part that stores the data.
+A *singly linked list* has a **pointer** to the next node and a **key** part that stores the data. Now, we are going to discuss how to reverse a linked list iteratively. 
 
 ### Java Representation of a Singly/Simple Linked List
 
@@ -47,12 +47,14 @@ A *singly linked list* has a **pointer** to the next node and a **key** part tha
 	Node prev = null;
 	Node nex = null;
 	while (curr != null) {
-		curr.next = nex;
-		nex = prev;
+		nex = curr.next;
+		curr.next = prev;
 		prev = curr;
 		curr = nex;
 	}
 	return prev;
 {{< /highlight >}}
+
+I love this solution because when I submitted it on LeetCode, the runtime was 100% faster than all Java submissions. I personally like clean code, but the recursive solution's runtime can be too slow if given the worst test cases.
 
 Here's a great book tackling all of the data structures and algorithms I've studied so far, we call it [CLRS](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844). 
