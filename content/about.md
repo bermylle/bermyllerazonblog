@@ -24,11 +24,7 @@ Hello! I'm a second year CS student at the University of the Philippines Manila.
 
 If you want to contact me you can email me at bermylle@gmail.com
 
-
-## A little trivia about my name
-{{< highlight go >}} String name = "Bermylle John"; {{< /highlight >}}
-
-I was named Bermylle because I was born in December 30, 1999. They told me that the meaning of my name was "before millenium," hence, Bermylle.
+{{< highlight go >}} String name = "Bermylle John";{{< /highlight >}}
 
 I used [Hugo](https://gohugo.io/) to make this blog site. The theme is [Blogpaper](https://themes.gohugo.io/blogpaper/).
 
