@@ -20,7 +20,7 @@ banner:
 
 
 
-Hello! I'm a second year CS student at the University of the Philippines Manila. I'll try to keep this site update as often as I can. The topics I will upload here would be mostly about software development and my experiences.
+Hello! I'm a third year CS student at the University of the Philippines Manila. I'll try to keep this site update as often as I can. The topics I will upload here would be mostly about software development and my experiences.
 
 If you want to contact me you can email me at bermylle@gmail.com
 
