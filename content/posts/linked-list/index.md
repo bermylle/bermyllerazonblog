@@ -14,7 +14,7 @@ draft: false
 
 
 ---
-Linked list is important to understand because it is often asked in job interviews. New programmers like me tend to find it difficult to implement because of pointers. Once we master the fundamentals we can apply our knowledge to solve varying DS/Algo problems in LeetCode ;-)
+Linked list is important to understand because it is often asked in job interviews. New programmers find it difficult to implement because of pointers. Once we master the fundamentals, problems like this can be easily solved.
 <!--more--> 
 
 ### What is a Linked List?
