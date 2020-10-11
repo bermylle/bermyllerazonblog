@@ -18,11 +18,11 @@ A cell automaton game made by John Conway in which a group of creatures may tend
 <!--more--> 
 {{< figure src="/game-of-life/gol.gif" class="full-wide-width" >}}
 
-This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our Facebook group, I started doing it straight away. I have a mindset that I should do my projects as early as I can. 
+This is the first project given to us in CS 11 (Introduction to Computer Science). When the project's specification was uploaded on our Facebook group, I started doing it right away. I have this mindset that I should do my projects as early as I can before they pile up. 
 
-I believe that the less I know, the more I want to learn. There are a lot of things I need to practice and master in this tech field. I'm not going to stop until I'm satisfied with my skillset.
+I didn't know where to start. I was excited because the less I know, the more I want to learn. 
 
-I coded nonstop in my dorm since it's my first project. I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
+I coded nonstop in my dorm since it's my first project as computer science student. I thought it was gonna be fun.. Until I was introduced to pointers and arrays.
 
 ### C Implementation 
 
