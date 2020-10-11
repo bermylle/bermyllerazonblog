@@ -42,7 +42,7 @@ A *singly linked list* has a **pointer** to the next node and a **key** part tha
 {{< /highlight >}}
 
 ### How do we reverse a Linked List?
-This is how to reverse a linked list iteratively. 
+
 {{< highlight java >}}public class ReverseLinkedList(Node head) 
 	Node curr = head;
 	Node prev = null;
@@ -55,6 +55,8 @@ This is how to reverse a linked list iteratively.
 	}
 	return prev;
 {{< /highlight >}}
+
+This is how to reverse a linked list iteratively. 
 
 The runtime of this code is 100% faster than all Java submissions in LeetCode. I personally like the iterative approach because it can clearly show the implemention of the pointers
 
